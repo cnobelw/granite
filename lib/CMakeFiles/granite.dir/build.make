@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cw/下载/granite-0.3.0
+CMAKE_SOURCE_DIR = /home/cw/文档/granite-0.3.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cw/下载/granite-0.3.0
+CMAKE_BINARY_DIR = /home/cw/文档/granite-0.3.0
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/granite.dir/depend.make
@@ -224,22 +224,22 @@ lib/granite_valac.stamp: lib/Widgets/CellRendererBadge.vala
 lib/granite_valac.stamp: lib/Widgets/ThinPaned.vala
 lib/granite_valac.stamp: lib/Widgets/OverlayBar.vala
 lib/granite_valac.stamp: lib/config.vapi
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating style-classes.c;Application.c;Drawing/Color.c;Drawing/BufferSurface.c;Drawing/Utilities.c;GtkPatch/AboutDialog.c;Services/Settings.c;Services/Logger.c;Services/Paths.c;Services/System.c;Services/Contractor.c;Services/ContractorProxy.c;Services/IconFactory.c;Services/SimpleCommand.c;Widgets/Utils.c;Widgets/WrapLabel.c;Widgets/AboutDialog.c;Widgets/ModeButton.c;Widgets/DatePicker.c;Widgets/Entries.c;Widgets/TimePicker.c;Widgets/CollapsiblePaned.c;Widgets/StaticNotebook.c;Widgets/DynamicNotebook.c;Widgets/CompositedWindow.c;Widgets/AppMenu.c;Widgets/Welcome.c;Widgets/ToolButtonWithMenu.c;Widgets/PopOver.c;Widgets/ContractorView.c;Widgets/ContractorMenu.c;Widgets/DecoratedWindow.c;Widgets/LightWindow.c;Widgets/StatusBar.c;Widgets/SidebarPaned.c;Widgets/SourceList.c;Widgets/CellRendererExpander.c;Widgets/CellRendererBadge.c;Widgets/ThinPaned.c;Widgets/OverlayBar.c;granite.vapi;granite.h"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/valac -C --header=granite.h --library=granite --vapi=granite.vapi -b /home/cw/下载/granite-0.3.0/lib -d /home/cw/下载/granite-0.3.0/lib --pkg=gtk+-3.0 --pkg=gio-unix-2.0 --pkg=posix --pkg=gee-0.8 --thread --target-glib=2.32 --define=LINUX /home/cw/下载/granite-0.3.0/lib/style-classes.vala /home/cw/下载/granite-0.3.0/lib/Application.vala /home/cw/下载/granite-0.3.0/lib/Drawing/Color.vala /home/cw/下载/granite-0.3.0/lib/Drawing/BufferSurface.vala /home/cw/下载/granite-0.3.0/lib/Drawing/Utilities.vala /home/cw/下载/granite-0.3.0/lib/GtkPatch/AboutDialog.vala /home/cw/下载/granite-0.3.0/lib/Services/Settings.vala /home/cw/下载/granite-0.3.0/lib/Services/Logger.vala /home/cw/下载/granite-0.3.0/lib/Services/Paths.vala /home/cw/下载/granite-0.3.0/lib/Services/System.vala /home/cw/下载/granite-0.3.0/lib/Services/Contractor.vala /home/cw/下载/granite-0.3.0/lib/Services/ContractorProxy.vala /home/cw/下载/granite-0.3.0/lib/Services/IconFactory.vala /home/cw/下载/granite-0.3.0/lib/Services/SimpleCommand.vala /home/cw/下载/granite-0.3.0/lib/Widgets/Utils.vala /home/cw/下载/granite-0.3.0/lib/Widgets/WrapLabel.vala /home/cw/下载/granite-0.3.0/lib/Widgets/AboutDialog.vala /home/cw/下载/granite-0.3.0/lib/Widgets/ModeButton.vala /home/cw/下载/granite-0.3.0/lib/Widgets/DatePicker.vala /home/cw/下载/granite-0.3.0/lib/Widgets/Entries.vala /home/cw/下载/granite-0.3.0/lib/Widgets/TimePicker.vala /home/cw/下载/granite-0.3.0/lib/Widgets/CollapsiblePaned.vala /home/cw/下载/granite-0.3.0/lib/Widgets/StaticNotebook.vala /home/cw/下载/granite-0.3.0/lib/Widgets/DynamicNotebook.vala /home/cw/下载/granite-0.3.0/lib/Widgets/CompositedWindow.vala /home/cw/下载/granite-0.3.0/lib/Widgets/AppMenu.vala /home/cw/下载/granite-0.3.0/lib/Widgets/Welcome.vala /home/cw/下载/granite-0.3.0/lib/Widgets/ToolButtonWithMenu.vala /home/cw/下载/granite-0.3.0/lib/Widgets/PopOver.vala /home/cw/下载/granite-0.3.0/lib/Widgets/ContractorView.vala /home/cw/下载/granite-0.3.0/lib/Widgets/ContractorMenu.vala /home/cw/下载/granite-0.3.0/lib/Widgets/DecoratedWindow.vala /home/cw/下载/granite-0.3.0/lib/Widgets/LightWindow.vala /home/cw/下载/granite-0.3.0/lib/Widgets/StatusBar.vala /home/cw/下载/granite-0.3.0/lib/Widgets/SidebarPaned.vala /home/cw/下载/granite-0.3.0/lib/Widgets/SourceList.vala /home/cw/下载/granite-0.3.0/lib/Widgets/CellRendererExpander.vala /home/cw/下载/granite-0.3.0/lib/Widgets/CellRendererBadge.vala /home/cw/下载/granite-0.3.0/lib/Widgets/ThinPaned.vala /home/cw/下载/granite-0.3.0/lib/Widgets/OverlayBar.vala /home/cw/下载/granite-0.3.0/lib/config.vapi
-	cd /home/cw/下载/granite-0.3.0/lib && touch /home/cw/下载/granite-0.3.0/lib/granite_valac.stamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating style-classes.c;Application.c;Drawing/Color.c;Drawing/BufferSurface.c;Drawing/Utilities.c;GtkPatch/AboutDialog.c;Services/Settings.c;Services/Logger.c;Services/Paths.c;Services/System.c;Services/Contractor.c;Services/ContractorProxy.c;Services/IconFactory.c;Services/SimpleCommand.c;Widgets/Utils.c;Widgets/WrapLabel.c;Widgets/AboutDialog.c;Widgets/ModeButton.c;Widgets/DatePicker.c;Widgets/Entries.c;Widgets/TimePicker.c;Widgets/CollapsiblePaned.c;Widgets/StaticNotebook.c;Widgets/DynamicNotebook.c;Widgets/CompositedWindow.c;Widgets/AppMenu.c;Widgets/Welcome.c;Widgets/ToolButtonWithMenu.c;Widgets/PopOver.c;Widgets/ContractorView.c;Widgets/ContractorMenu.c;Widgets/DecoratedWindow.c;Widgets/LightWindow.c;Widgets/StatusBar.c;Widgets/SidebarPaned.c;Widgets/SourceList.c;Widgets/CellRendererExpander.c;Widgets/CellRendererBadge.c;Widgets/ThinPaned.c;Widgets/OverlayBar.c;granite.vapi;granite.h"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/valac -C --header=granite.h --library=granite --vapi=granite.vapi -b /home/cw/文档/granite-0.3.0/lib -d /home/cw/文档/granite-0.3.0/lib --pkg=gtk+-3.0 --pkg=gio-unix-2.0 --pkg=posix --pkg=gee-0.8 --thread --target-glib=2.32 --define=LINUX /home/cw/文档/granite-0.3.0/lib/style-classes.vala /home/cw/文档/granite-0.3.0/lib/Application.vala /home/cw/文档/granite-0.3.0/lib/Drawing/Color.vala /home/cw/文档/granite-0.3.0/lib/Drawing/BufferSurface.vala /home/cw/文档/granite-0.3.0/lib/Drawing/Utilities.vala /home/cw/文档/granite-0.3.0/lib/GtkPatch/AboutDialog.vala /home/cw/文档/granite-0.3.0/lib/Services/Settings.vala /home/cw/文档/granite-0.3.0/lib/Services/Logger.vala /home/cw/文档/granite-0.3.0/lib/Services/Paths.vala /home/cw/文档/granite-0.3.0/lib/Services/System.vala /home/cw/文档/granite-0.3.0/lib/Services/Contractor.vala /home/cw/文档/granite-0.3.0/lib/Services/ContractorProxy.vala /home/cw/文档/granite-0.3.0/lib/Services/IconFactory.vala /home/cw/文档/granite-0.3.0/lib/Services/SimpleCommand.vala /home/cw/文档/granite-0.3.0/lib/Widgets/Utils.vala /home/cw/文档/granite-0.3.0/lib/Widgets/WrapLabel.vala /home/cw/文档/granite-0.3.0/lib/Widgets/AboutDialog.vala /home/cw/文档/granite-0.3.0/lib/Widgets/ModeButton.vala /home/cw/文档/granite-0.3.0/lib/Widgets/DatePicker.vala /home/cw/文档/granite-0.3.0/lib/Widgets/Entries.vala /home/cw/文档/granite-0.3.0/lib/Widgets/TimePicker.vala /home/cw/文档/granite-0.3.0/lib/Widgets/CollapsiblePaned.vala /home/cw/文档/granite-0.3.0/lib/Widgets/StaticNotebook.vala /home/cw/文档/granite-0.3.0/lib/Widgets/DynamicNotebook.vala /home/cw/文档/granite-0.3.0/lib/Widgets/CompositedWindow.vala /home/cw/文档/granite-0.3.0/lib/Widgets/AppMenu.vala /home/cw/文档/granite-0.3.0/lib/Widgets/Welcome.vala /home/cw/文档/granite-0.3.0/lib/Widgets/ToolButtonWithMenu.vala /home/cw/文档/granite-0.3.0/lib/Widgets/PopOver.vala /home/cw/文档/granite-0.3.0/lib/Widgets/ContractorView.vala /home/cw/文档/granite-0.3.0/lib/Widgets/ContractorMenu.vala /home/cw/文档/granite-0.3.0/lib/Widgets/DecoratedWindow.vala /home/cw/文档/granite-0.3.0/lib/Widgets/LightWindow.vala /home/cw/文档/granite-0.3.0/lib/Widgets/StatusBar.vala /home/cw/文档/granite-0.3.0/lib/Widgets/SidebarPaned.vala /home/cw/文档/granite-0.3.0/lib/Widgets/SourceList.vala /home/cw/文档/granite-0.3.0/lib/Widgets/CellRendererExpander.vala /home/cw/文档/granite-0.3.0/lib/Widgets/CellRendererBadge.vala /home/cw/文档/granite-0.3.0/lib/Widgets/ThinPaned.vala /home/cw/文档/granite-0.3.0/lib/Widgets/OverlayBar.vala /home/cw/文档/granite-0.3.0/lib/config.vapi
+	cd /home/cw/文档/granite-0.3.0/lib && touch /home/cw/文档/granite-0.3.0/lib/granite_valac.stamp
 
 lib/CMakeFiles/granite.dir/Widgets/widgets-utils.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/widgets-utils.c.o: lib/Widgets/widgets-utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/CMakeFiles/granite.dir/Widgets/widgets-utils.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/widgets-utils.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/widgets-utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/CMakeFiles/granite.dir/Widgets/widgets-utils.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/widgets-utils.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/widgets-utils.c
 
 lib/CMakeFiles/granite.dir/Widgets/widgets-utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/widgets-utils.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/widgets-utils.c > CMakeFiles/granite.dir/Widgets/widgets-utils.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/widgets-utils.c > CMakeFiles/granite.dir/Widgets/widgets-utils.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/widgets-utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/widgets-utils.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/widgets-utils.c -o CMakeFiles/granite.dir/Widgets/widgets-utils.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/widgets-utils.c -o CMakeFiles/granite.dir/Widgets/widgets-utils.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/widgets-utils.c.o.requires:
 
@@ -254,16 +254,16 @@ lib/CMakeFiles/granite.dir/Widgets/widgets-utils.c.o.provides.build: lib/CMakeFi
 
 lib/CMakeFiles/granite.dir/Widgets/close-button.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/close-button.c.o: lib/Widgets/close-button.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/CMakeFiles/granite.dir/Widgets/close-button.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/close-button.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/close-button.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/CMakeFiles/granite.dir/Widgets/close-button.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/close-button.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/close-button.c
 
 lib/CMakeFiles/granite.dir/Widgets/close-button.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/close-button.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/close-button.c > CMakeFiles/granite.dir/Widgets/close-button.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/close-button.c > CMakeFiles/granite.dir/Widgets/close-button.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/close-button.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/close-button.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/close-button.c -o CMakeFiles/granite.dir/Widgets/close-button.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/close-button.c -o CMakeFiles/granite.dir/Widgets/close-button.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/close-button.c.o.requires:
 
@@ -278,16 +278,16 @@ lib/CMakeFiles/granite.dir/Widgets/close-button.c.o.provides.build: lib/CMakeFil
 
 lib/CMakeFiles/granite.dir/style-classes.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/style-classes.c.o: lib/style-classes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/CMakeFiles/granite.dir/style-classes.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/style-classes.c.o   -c /home/cw/下载/granite-0.3.0/lib/style-classes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/CMakeFiles/granite.dir/style-classes.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/style-classes.c.o   -c /home/cw/文档/granite-0.3.0/lib/style-classes.c
 
 lib/CMakeFiles/granite.dir/style-classes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/style-classes.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/style-classes.c > CMakeFiles/granite.dir/style-classes.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/style-classes.c > CMakeFiles/granite.dir/style-classes.c.i
 
 lib/CMakeFiles/granite.dir/style-classes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/style-classes.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/style-classes.c -o CMakeFiles/granite.dir/style-classes.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/style-classes.c -o CMakeFiles/granite.dir/style-classes.c.s
 
 lib/CMakeFiles/granite.dir/style-classes.c.o.requires:
 
@@ -302,16 +302,16 @@ lib/CMakeFiles/granite.dir/style-classes.c.o.provides.build: lib/CMakeFiles/gran
 
 lib/CMakeFiles/granite.dir/Application.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Application.c.o: lib/Application.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/CMakeFiles/granite.dir/Application.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Application.c.o   -c /home/cw/下载/granite-0.3.0/lib/Application.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/CMakeFiles/granite.dir/Application.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Application.c.o   -c /home/cw/文档/granite-0.3.0/lib/Application.c
 
 lib/CMakeFiles/granite.dir/Application.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Application.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Application.c > CMakeFiles/granite.dir/Application.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Application.c > CMakeFiles/granite.dir/Application.c.i
 
 lib/CMakeFiles/granite.dir/Application.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Application.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Application.c -o CMakeFiles/granite.dir/Application.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Application.c -o CMakeFiles/granite.dir/Application.c.s
 
 lib/CMakeFiles/granite.dir/Application.c.o.requires:
 
@@ -326,16 +326,16 @@ lib/CMakeFiles/granite.dir/Application.c.o.provides.build: lib/CMakeFiles/granit
 
 lib/CMakeFiles/granite.dir/Drawing/Color.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Drawing/Color.c.o: lib/Drawing/Color.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/CMakeFiles/granite.dir/Drawing/Color.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Drawing/Color.c.o   -c /home/cw/下载/granite-0.3.0/lib/Drawing/Color.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/CMakeFiles/granite.dir/Drawing/Color.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Drawing/Color.c.o   -c /home/cw/文档/granite-0.3.0/lib/Drawing/Color.c
 
 lib/CMakeFiles/granite.dir/Drawing/Color.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Drawing/Color.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Drawing/Color.c > CMakeFiles/granite.dir/Drawing/Color.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Drawing/Color.c > CMakeFiles/granite.dir/Drawing/Color.c.i
 
 lib/CMakeFiles/granite.dir/Drawing/Color.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Drawing/Color.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Drawing/Color.c -o CMakeFiles/granite.dir/Drawing/Color.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Drawing/Color.c -o CMakeFiles/granite.dir/Drawing/Color.c.s
 
 lib/CMakeFiles/granite.dir/Drawing/Color.c.o.requires:
 
@@ -350,16 +350,16 @@ lib/CMakeFiles/granite.dir/Drawing/Color.c.o.provides.build: lib/CMakeFiles/gran
 
 lib/CMakeFiles/granite.dir/Drawing/BufferSurface.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Drawing/BufferSurface.c.o: lib/Drawing/BufferSurface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/CMakeFiles/granite.dir/Drawing/BufferSurface.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Drawing/BufferSurface.c.o   -c /home/cw/下载/granite-0.3.0/lib/Drawing/BufferSurface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/CMakeFiles/granite.dir/Drawing/BufferSurface.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Drawing/BufferSurface.c.o   -c /home/cw/文档/granite-0.3.0/lib/Drawing/BufferSurface.c
 
 lib/CMakeFiles/granite.dir/Drawing/BufferSurface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Drawing/BufferSurface.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Drawing/BufferSurface.c > CMakeFiles/granite.dir/Drawing/BufferSurface.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Drawing/BufferSurface.c > CMakeFiles/granite.dir/Drawing/BufferSurface.c.i
 
 lib/CMakeFiles/granite.dir/Drawing/BufferSurface.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Drawing/BufferSurface.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Drawing/BufferSurface.c -o CMakeFiles/granite.dir/Drawing/BufferSurface.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Drawing/BufferSurface.c -o CMakeFiles/granite.dir/Drawing/BufferSurface.c.s
 
 lib/CMakeFiles/granite.dir/Drawing/BufferSurface.c.o.requires:
 
@@ -374,16 +374,16 @@ lib/CMakeFiles/granite.dir/Drawing/BufferSurface.c.o.provides.build: lib/CMakeFi
 
 lib/CMakeFiles/granite.dir/Drawing/Utilities.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Drawing/Utilities.c.o: lib/Drawing/Utilities.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/CMakeFiles/granite.dir/Drawing/Utilities.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Drawing/Utilities.c.o   -c /home/cw/下载/granite-0.3.0/lib/Drawing/Utilities.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/CMakeFiles/granite.dir/Drawing/Utilities.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Drawing/Utilities.c.o   -c /home/cw/文档/granite-0.3.0/lib/Drawing/Utilities.c
 
 lib/CMakeFiles/granite.dir/Drawing/Utilities.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Drawing/Utilities.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Drawing/Utilities.c > CMakeFiles/granite.dir/Drawing/Utilities.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Drawing/Utilities.c > CMakeFiles/granite.dir/Drawing/Utilities.c.i
 
 lib/CMakeFiles/granite.dir/Drawing/Utilities.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Drawing/Utilities.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Drawing/Utilities.c -o CMakeFiles/granite.dir/Drawing/Utilities.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Drawing/Utilities.c -o CMakeFiles/granite.dir/Drawing/Utilities.c.s
 
 lib/CMakeFiles/granite.dir/Drawing/Utilities.c.o.requires:
 
@@ -398,16 +398,16 @@ lib/CMakeFiles/granite.dir/Drawing/Utilities.c.o.provides.build: lib/CMakeFiles/
 
 lib/CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.o: lib/GtkPatch/AboutDialog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.o   -c /home/cw/下载/granite-0.3.0/lib/GtkPatch/AboutDialog.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.o   -c /home/cw/文档/granite-0.3.0/lib/GtkPatch/AboutDialog.c
 
 lib/CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/GtkPatch/AboutDialog.c > CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/GtkPatch/AboutDialog.c > CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.i
 
 lib/CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/GtkPatch/AboutDialog.c -o CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/GtkPatch/AboutDialog.c -o CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.s
 
 lib/CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.o.requires:
 
@@ -422,16 +422,16 @@ lib/CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.o.provides.build: lib/CMakeFil
 
 lib/CMakeFiles/granite.dir/Services/Settings.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Services/Settings.c.o: lib/Services/Settings.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lib/CMakeFiles/granite.dir/Services/Settings.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Services/Settings.c.o   -c /home/cw/下载/granite-0.3.0/lib/Services/Settings.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lib/CMakeFiles/granite.dir/Services/Settings.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Services/Settings.c.o   -c /home/cw/文档/granite-0.3.0/lib/Services/Settings.c
 
 lib/CMakeFiles/granite.dir/Services/Settings.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Services/Settings.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Services/Settings.c > CMakeFiles/granite.dir/Services/Settings.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Services/Settings.c > CMakeFiles/granite.dir/Services/Settings.c.i
 
 lib/CMakeFiles/granite.dir/Services/Settings.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Services/Settings.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Services/Settings.c -o CMakeFiles/granite.dir/Services/Settings.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Services/Settings.c -o CMakeFiles/granite.dir/Services/Settings.c.s
 
 lib/CMakeFiles/granite.dir/Services/Settings.c.o.requires:
 
@@ -446,16 +446,16 @@ lib/CMakeFiles/granite.dir/Services/Settings.c.o.provides.build: lib/CMakeFiles/
 
 lib/CMakeFiles/granite.dir/Services/Logger.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Services/Logger.c.o: lib/Services/Logger.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/CMakeFiles/granite.dir/Services/Logger.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Services/Logger.c.o   -c /home/cw/下载/granite-0.3.0/lib/Services/Logger.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/CMakeFiles/granite.dir/Services/Logger.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Services/Logger.c.o   -c /home/cw/文档/granite-0.3.0/lib/Services/Logger.c
 
 lib/CMakeFiles/granite.dir/Services/Logger.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Services/Logger.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Services/Logger.c > CMakeFiles/granite.dir/Services/Logger.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Services/Logger.c > CMakeFiles/granite.dir/Services/Logger.c.i
 
 lib/CMakeFiles/granite.dir/Services/Logger.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Services/Logger.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Services/Logger.c -o CMakeFiles/granite.dir/Services/Logger.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Services/Logger.c -o CMakeFiles/granite.dir/Services/Logger.c.s
 
 lib/CMakeFiles/granite.dir/Services/Logger.c.o.requires:
 
@@ -470,16 +470,16 @@ lib/CMakeFiles/granite.dir/Services/Logger.c.o.provides.build: lib/CMakeFiles/gr
 
 lib/CMakeFiles/granite.dir/Services/Paths.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Services/Paths.c.o: lib/Services/Paths.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/CMakeFiles/granite.dir/Services/Paths.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Services/Paths.c.o   -c /home/cw/下载/granite-0.3.0/lib/Services/Paths.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/CMakeFiles/granite.dir/Services/Paths.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Services/Paths.c.o   -c /home/cw/文档/granite-0.3.0/lib/Services/Paths.c
 
 lib/CMakeFiles/granite.dir/Services/Paths.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Services/Paths.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Services/Paths.c > CMakeFiles/granite.dir/Services/Paths.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Services/Paths.c > CMakeFiles/granite.dir/Services/Paths.c.i
 
 lib/CMakeFiles/granite.dir/Services/Paths.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Services/Paths.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Services/Paths.c -o CMakeFiles/granite.dir/Services/Paths.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Services/Paths.c -o CMakeFiles/granite.dir/Services/Paths.c.s
 
 lib/CMakeFiles/granite.dir/Services/Paths.c.o.requires:
 
@@ -494,16 +494,16 @@ lib/CMakeFiles/granite.dir/Services/Paths.c.o.provides.build: lib/CMakeFiles/gra
 
 lib/CMakeFiles/granite.dir/Services/System.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Services/System.c.o: lib/Services/System.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lib/CMakeFiles/granite.dir/Services/System.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Services/System.c.o   -c /home/cw/下载/granite-0.3.0/lib/Services/System.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lib/CMakeFiles/granite.dir/Services/System.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Services/System.c.o   -c /home/cw/文档/granite-0.3.0/lib/Services/System.c
 
 lib/CMakeFiles/granite.dir/Services/System.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Services/System.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Services/System.c > CMakeFiles/granite.dir/Services/System.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Services/System.c > CMakeFiles/granite.dir/Services/System.c.i
 
 lib/CMakeFiles/granite.dir/Services/System.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Services/System.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Services/System.c -o CMakeFiles/granite.dir/Services/System.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Services/System.c -o CMakeFiles/granite.dir/Services/System.c.s
 
 lib/CMakeFiles/granite.dir/Services/System.c.o.requires:
 
@@ -518,16 +518,16 @@ lib/CMakeFiles/granite.dir/Services/System.c.o.provides.build: lib/CMakeFiles/gr
 
 lib/CMakeFiles/granite.dir/Services/Contractor.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Services/Contractor.c.o: lib/Services/Contractor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lib/CMakeFiles/granite.dir/Services/Contractor.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Services/Contractor.c.o   -c /home/cw/下载/granite-0.3.0/lib/Services/Contractor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lib/CMakeFiles/granite.dir/Services/Contractor.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Services/Contractor.c.o   -c /home/cw/文档/granite-0.3.0/lib/Services/Contractor.c
 
 lib/CMakeFiles/granite.dir/Services/Contractor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Services/Contractor.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Services/Contractor.c > CMakeFiles/granite.dir/Services/Contractor.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Services/Contractor.c > CMakeFiles/granite.dir/Services/Contractor.c.i
 
 lib/CMakeFiles/granite.dir/Services/Contractor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Services/Contractor.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Services/Contractor.c -o CMakeFiles/granite.dir/Services/Contractor.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Services/Contractor.c -o CMakeFiles/granite.dir/Services/Contractor.c.s
 
 lib/CMakeFiles/granite.dir/Services/Contractor.c.o.requires:
 
@@ -542,16 +542,16 @@ lib/CMakeFiles/granite.dir/Services/Contractor.c.o.provides.build: lib/CMakeFile
 
 lib/CMakeFiles/granite.dir/Services/ContractorProxy.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Services/ContractorProxy.c.o: lib/Services/ContractorProxy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lib/CMakeFiles/granite.dir/Services/ContractorProxy.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Services/ContractorProxy.c.o   -c /home/cw/下载/granite-0.3.0/lib/Services/ContractorProxy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lib/CMakeFiles/granite.dir/Services/ContractorProxy.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Services/ContractorProxy.c.o   -c /home/cw/文档/granite-0.3.0/lib/Services/ContractorProxy.c
 
 lib/CMakeFiles/granite.dir/Services/ContractorProxy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Services/ContractorProxy.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Services/ContractorProxy.c > CMakeFiles/granite.dir/Services/ContractorProxy.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Services/ContractorProxy.c > CMakeFiles/granite.dir/Services/ContractorProxy.c.i
 
 lib/CMakeFiles/granite.dir/Services/ContractorProxy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Services/ContractorProxy.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Services/ContractorProxy.c -o CMakeFiles/granite.dir/Services/ContractorProxy.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Services/ContractorProxy.c -o CMakeFiles/granite.dir/Services/ContractorProxy.c.s
 
 lib/CMakeFiles/granite.dir/Services/ContractorProxy.c.o.requires:
 
@@ -566,16 +566,16 @@ lib/CMakeFiles/granite.dir/Services/ContractorProxy.c.o.provides.build: lib/CMak
 
 lib/CMakeFiles/granite.dir/Services/IconFactory.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Services/IconFactory.c.o: lib/Services/IconFactory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lib/CMakeFiles/granite.dir/Services/IconFactory.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Services/IconFactory.c.o   -c /home/cw/下载/granite-0.3.0/lib/Services/IconFactory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lib/CMakeFiles/granite.dir/Services/IconFactory.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Services/IconFactory.c.o   -c /home/cw/文档/granite-0.3.0/lib/Services/IconFactory.c
 
 lib/CMakeFiles/granite.dir/Services/IconFactory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Services/IconFactory.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Services/IconFactory.c > CMakeFiles/granite.dir/Services/IconFactory.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Services/IconFactory.c > CMakeFiles/granite.dir/Services/IconFactory.c.i
 
 lib/CMakeFiles/granite.dir/Services/IconFactory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Services/IconFactory.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Services/IconFactory.c -o CMakeFiles/granite.dir/Services/IconFactory.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Services/IconFactory.c -o CMakeFiles/granite.dir/Services/IconFactory.c.s
 
 lib/CMakeFiles/granite.dir/Services/IconFactory.c.o.requires:
 
@@ -590,16 +590,16 @@ lib/CMakeFiles/granite.dir/Services/IconFactory.c.o.provides.build: lib/CMakeFil
 
 lib/CMakeFiles/granite.dir/Services/SimpleCommand.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Services/SimpleCommand.c.o: lib/Services/SimpleCommand.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lib/CMakeFiles/granite.dir/Services/SimpleCommand.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Services/SimpleCommand.c.o   -c /home/cw/下载/granite-0.3.0/lib/Services/SimpleCommand.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lib/CMakeFiles/granite.dir/Services/SimpleCommand.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Services/SimpleCommand.c.o   -c /home/cw/文档/granite-0.3.0/lib/Services/SimpleCommand.c
 
 lib/CMakeFiles/granite.dir/Services/SimpleCommand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Services/SimpleCommand.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Services/SimpleCommand.c > CMakeFiles/granite.dir/Services/SimpleCommand.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Services/SimpleCommand.c > CMakeFiles/granite.dir/Services/SimpleCommand.c.i
 
 lib/CMakeFiles/granite.dir/Services/SimpleCommand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Services/SimpleCommand.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Services/SimpleCommand.c -o CMakeFiles/granite.dir/Services/SimpleCommand.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Services/SimpleCommand.c -o CMakeFiles/granite.dir/Services/SimpleCommand.c.s
 
 lib/CMakeFiles/granite.dir/Services/SimpleCommand.c.o.requires:
 
@@ -614,16 +614,16 @@ lib/CMakeFiles/granite.dir/Services/SimpleCommand.c.o.provides.build: lib/CMakeF
 
 lib/CMakeFiles/granite.dir/Widgets/Utils.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/Utils.c.o: lib/Widgets/Utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lib/CMakeFiles/granite.dir/Widgets/Utils.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/Utils.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/Utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lib/CMakeFiles/granite.dir/Widgets/Utils.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/Utils.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/Utils.c
 
 lib/CMakeFiles/granite.dir/Widgets/Utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/Utils.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/Utils.c > CMakeFiles/granite.dir/Widgets/Utils.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/Utils.c > CMakeFiles/granite.dir/Widgets/Utils.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/Utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/Utils.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/Utils.c -o CMakeFiles/granite.dir/Widgets/Utils.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/Utils.c -o CMakeFiles/granite.dir/Widgets/Utils.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/Utils.c.o.requires:
 
@@ -638,16 +638,16 @@ lib/CMakeFiles/granite.dir/Widgets/Utils.c.o.provides.build: lib/CMakeFiles/gran
 
 lib/CMakeFiles/granite.dir/Widgets/WrapLabel.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/WrapLabel.c.o: lib/Widgets/WrapLabel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lib/CMakeFiles/granite.dir/Widgets/WrapLabel.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/WrapLabel.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/WrapLabel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lib/CMakeFiles/granite.dir/Widgets/WrapLabel.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/WrapLabel.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/WrapLabel.c
 
 lib/CMakeFiles/granite.dir/Widgets/WrapLabel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/WrapLabel.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/WrapLabel.c > CMakeFiles/granite.dir/Widgets/WrapLabel.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/WrapLabel.c > CMakeFiles/granite.dir/Widgets/WrapLabel.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/WrapLabel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/WrapLabel.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/WrapLabel.c -o CMakeFiles/granite.dir/Widgets/WrapLabel.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/WrapLabel.c -o CMakeFiles/granite.dir/Widgets/WrapLabel.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/WrapLabel.c.o.requires:
 
@@ -662,16 +662,16 @@ lib/CMakeFiles/granite.dir/Widgets/WrapLabel.c.o.provides.build: lib/CMakeFiles/
 
 lib/CMakeFiles/granite.dir/Widgets/AboutDialog.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/AboutDialog.c.o: lib/Widgets/AboutDialog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lib/CMakeFiles/granite.dir/Widgets/AboutDialog.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/AboutDialog.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/AboutDialog.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lib/CMakeFiles/granite.dir/Widgets/AboutDialog.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/AboutDialog.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/AboutDialog.c
 
 lib/CMakeFiles/granite.dir/Widgets/AboutDialog.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/AboutDialog.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/AboutDialog.c > CMakeFiles/granite.dir/Widgets/AboutDialog.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/AboutDialog.c > CMakeFiles/granite.dir/Widgets/AboutDialog.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/AboutDialog.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/AboutDialog.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/AboutDialog.c -o CMakeFiles/granite.dir/Widgets/AboutDialog.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/AboutDialog.c -o CMakeFiles/granite.dir/Widgets/AboutDialog.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/AboutDialog.c.o.requires:
 
@@ -686,16 +686,16 @@ lib/CMakeFiles/granite.dir/Widgets/AboutDialog.c.o.provides.build: lib/CMakeFile
 
 lib/CMakeFiles/granite.dir/Widgets/ModeButton.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/ModeButton.c.o: lib/Widgets/ModeButton.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lib/CMakeFiles/granite.dir/Widgets/ModeButton.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/ModeButton.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/ModeButton.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lib/CMakeFiles/granite.dir/Widgets/ModeButton.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/ModeButton.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/ModeButton.c
 
 lib/CMakeFiles/granite.dir/Widgets/ModeButton.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/ModeButton.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/ModeButton.c > CMakeFiles/granite.dir/Widgets/ModeButton.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/ModeButton.c > CMakeFiles/granite.dir/Widgets/ModeButton.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/ModeButton.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/ModeButton.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/ModeButton.c -o CMakeFiles/granite.dir/Widgets/ModeButton.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/ModeButton.c -o CMakeFiles/granite.dir/Widgets/ModeButton.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/ModeButton.c.o.requires:
 
@@ -710,16 +710,16 @@ lib/CMakeFiles/granite.dir/Widgets/ModeButton.c.o.provides.build: lib/CMakeFiles
 
 lib/CMakeFiles/granite.dir/Widgets/DatePicker.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/DatePicker.c.o: lib/Widgets/DatePicker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lib/CMakeFiles/granite.dir/Widgets/DatePicker.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/DatePicker.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/DatePicker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lib/CMakeFiles/granite.dir/Widgets/DatePicker.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/DatePicker.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/DatePicker.c
 
 lib/CMakeFiles/granite.dir/Widgets/DatePicker.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/DatePicker.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/DatePicker.c > CMakeFiles/granite.dir/Widgets/DatePicker.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/DatePicker.c > CMakeFiles/granite.dir/Widgets/DatePicker.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/DatePicker.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/DatePicker.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/DatePicker.c -o CMakeFiles/granite.dir/Widgets/DatePicker.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/DatePicker.c -o CMakeFiles/granite.dir/Widgets/DatePicker.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/DatePicker.c.o.requires:
 
@@ -734,16 +734,16 @@ lib/CMakeFiles/granite.dir/Widgets/DatePicker.c.o.provides.build: lib/CMakeFiles
 
 lib/CMakeFiles/granite.dir/Widgets/Entries.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/Entries.c.o: lib/Widgets/Entries.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lib/CMakeFiles/granite.dir/Widgets/Entries.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/Entries.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/Entries.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lib/CMakeFiles/granite.dir/Widgets/Entries.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/Entries.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/Entries.c
 
 lib/CMakeFiles/granite.dir/Widgets/Entries.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/Entries.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/Entries.c > CMakeFiles/granite.dir/Widgets/Entries.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/Entries.c > CMakeFiles/granite.dir/Widgets/Entries.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/Entries.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/Entries.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/Entries.c -o CMakeFiles/granite.dir/Widgets/Entries.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/Entries.c -o CMakeFiles/granite.dir/Widgets/Entries.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/Entries.c.o.requires:
 
@@ -758,16 +758,16 @@ lib/CMakeFiles/granite.dir/Widgets/Entries.c.o.provides.build: lib/CMakeFiles/gr
 
 lib/CMakeFiles/granite.dir/Widgets/TimePicker.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/TimePicker.c.o: lib/Widgets/TimePicker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lib/CMakeFiles/granite.dir/Widgets/TimePicker.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/TimePicker.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/TimePicker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lib/CMakeFiles/granite.dir/Widgets/TimePicker.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/TimePicker.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/TimePicker.c
 
 lib/CMakeFiles/granite.dir/Widgets/TimePicker.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/TimePicker.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/TimePicker.c > CMakeFiles/granite.dir/Widgets/TimePicker.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/TimePicker.c > CMakeFiles/granite.dir/Widgets/TimePicker.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/TimePicker.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/TimePicker.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/TimePicker.c -o CMakeFiles/granite.dir/Widgets/TimePicker.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/TimePicker.c -o CMakeFiles/granite.dir/Widgets/TimePicker.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/TimePicker.c.o.requires:
 
@@ -782,16 +782,16 @@ lib/CMakeFiles/granite.dir/Widgets/TimePicker.c.o.provides.build: lib/CMakeFiles
 
 lib/CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.o: lib/Widgets/CollapsiblePaned.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lib/CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/CollapsiblePaned.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lib/CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/CollapsiblePaned.c
 
 lib/CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/CollapsiblePaned.c > CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/CollapsiblePaned.c > CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/CollapsiblePaned.c -o CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/CollapsiblePaned.c -o CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.o.requires:
 
@@ -806,16 +806,16 @@ lib/CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.o.provides.build: lib/CMak
 
 lib/CMakeFiles/granite.dir/Widgets/StaticNotebook.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/StaticNotebook.c.o: lib/Widgets/StaticNotebook.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lib/CMakeFiles/granite.dir/Widgets/StaticNotebook.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/StaticNotebook.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/StaticNotebook.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lib/CMakeFiles/granite.dir/Widgets/StaticNotebook.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/StaticNotebook.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/StaticNotebook.c
 
 lib/CMakeFiles/granite.dir/Widgets/StaticNotebook.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/StaticNotebook.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/StaticNotebook.c > CMakeFiles/granite.dir/Widgets/StaticNotebook.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/StaticNotebook.c > CMakeFiles/granite.dir/Widgets/StaticNotebook.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/StaticNotebook.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/StaticNotebook.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/StaticNotebook.c -o CMakeFiles/granite.dir/Widgets/StaticNotebook.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/StaticNotebook.c -o CMakeFiles/granite.dir/Widgets/StaticNotebook.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/StaticNotebook.c.o.requires:
 
@@ -830,16 +830,16 @@ lib/CMakeFiles/granite.dir/Widgets/StaticNotebook.c.o.provides.build: lib/CMakeF
 
 lib/CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.o: lib/Widgets/DynamicNotebook.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lib/CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/DynamicNotebook.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lib/CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/DynamicNotebook.c
 
 lib/CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/DynamicNotebook.c > CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/DynamicNotebook.c > CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/DynamicNotebook.c -o CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/DynamicNotebook.c -o CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.o.requires:
 
@@ -854,16 +854,16 @@ lib/CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.o.provides.build: lib/CMake
 
 lib/CMakeFiles/granite.dir/Widgets/CompositedWindow.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/CompositedWindow.c.o: lib/Widgets/CompositedWindow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lib/CMakeFiles/granite.dir/Widgets/CompositedWindow.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/CompositedWindow.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/CompositedWindow.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lib/CMakeFiles/granite.dir/Widgets/CompositedWindow.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/CompositedWindow.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/CompositedWindow.c
 
 lib/CMakeFiles/granite.dir/Widgets/CompositedWindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/CompositedWindow.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/CompositedWindow.c > CMakeFiles/granite.dir/Widgets/CompositedWindow.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/CompositedWindow.c > CMakeFiles/granite.dir/Widgets/CompositedWindow.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/CompositedWindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/CompositedWindow.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/CompositedWindow.c -o CMakeFiles/granite.dir/Widgets/CompositedWindow.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/CompositedWindow.c -o CMakeFiles/granite.dir/Widgets/CompositedWindow.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/CompositedWindow.c.o.requires:
 
@@ -878,16 +878,16 @@ lib/CMakeFiles/granite.dir/Widgets/CompositedWindow.c.o.provides.build: lib/CMak
 
 lib/CMakeFiles/granite.dir/Widgets/AppMenu.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/AppMenu.c.o: lib/Widgets/AppMenu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lib/CMakeFiles/granite.dir/Widgets/AppMenu.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/AppMenu.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/AppMenu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lib/CMakeFiles/granite.dir/Widgets/AppMenu.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/AppMenu.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/AppMenu.c
 
 lib/CMakeFiles/granite.dir/Widgets/AppMenu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/AppMenu.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/AppMenu.c > CMakeFiles/granite.dir/Widgets/AppMenu.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/AppMenu.c > CMakeFiles/granite.dir/Widgets/AppMenu.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/AppMenu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/AppMenu.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/AppMenu.c -o CMakeFiles/granite.dir/Widgets/AppMenu.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/AppMenu.c -o CMakeFiles/granite.dir/Widgets/AppMenu.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/AppMenu.c.o.requires:
 
@@ -902,16 +902,16 @@ lib/CMakeFiles/granite.dir/Widgets/AppMenu.c.o.provides.build: lib/CMakeFiles/gr
 
 lib/CMakeFiles/granite.dir/Widgets/Welcome.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/Welcome.c.o: lib/Widgets/Welcome.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lib/CMakeFiles/granite.dir/Widgets/Welcome.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/Welcome.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/Welcome.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lib/CMakeFiles/granite.dir/Widgets/Welcome.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/Welcome.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/Welcome.c
 
 lib/CMakeFiles/granite.dir/Widgets/Welcome.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/Welcome.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/Welcome.c > CMakeFiles/granite.dir/Widgets/Welcome.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/Welcome.c > CMakeFiles/granite.dir/Widgets/Welcome.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/Welcome.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/Welcome.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/Welcome.c -o CMakeFiles/granite.dir/Widgets/Welcome.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/Welcome.c -o CMakeFiles/granite.dir/Widgets/Welcome.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/Welcome.c.o.requires:
 
@@ -926,16 +926,16 @@ lib/CMakeFiles/granite.dir/Widgets/Welcome.c.o.provides.build: lib/CMakeFiles/gr
 
 lib/CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.o: lib/Widgets/ToolButtonWithMenu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lib/CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/ToolButtonWithMenu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lib/CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/ToolButtonWithMenu.c
 
 lib/CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/ToolButtonWithMenu.c > CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/ToolButtonWithMenu.c > CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/ToolButtonWithMenu.c -o CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/ToolButtonWithMenu.c -o CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.o.requires:
 
@@ -950,16 +950,16 @@ lib/CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.o.provides.build: lib/CM
 
 lib/CMakeFiles/granite.dir/Widgets/PopOver.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/PopOver.c.o: lib/Widgets/PopOver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lib/CMakeFiles/granite.dir/Widgets/PopOver.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/PopOver.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/PopOver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lib/CMakeFiles/granite.dir/Widgets/PopOver.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/PopOver.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/PopOver.c
 
 lib/CMakeFiles/granite.dir/Widgets/PopOver.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/PopOver.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/PopOver.c > CMakeFiles/granite.dir/Widgets/PopOver.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/PopOver.c > CMakeFiles/granite.dir/Widgets/PopOver.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/PopOver.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/PopOver.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/PopOver.c -o CMakeFiles/granite.dir/Widgets/PopOver.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/PopOver.c -o CMakeFiles/granite.dir/Widgets/PopOver.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/PopOver.c.o.requires:
 
@@ -974,16 +974,16 @@ lib/CMakeFiles/granite.dir/Widgets/PopOver.c.o.provides.build: lib/CMakeFiles/gr
 
 lib/CMakeFiles/granite.dir/Widgets/ContractorView.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/ContractorView.c.o: lib/Widgets/ContractorView.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object lib/CMakeFiles/granite.dir/Widgets/ContractorView.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/ContractorView.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/ContractorView.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object lib/CMakeFiles/granite.dir/Widgets/ContractorView.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/ContractorView.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/ContractorView.c
 
 lib/CMakeFiles/granite.dir/Widgets/ContractorView.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/ContractorView.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/ContractorView.c > CMakeFiles/granite.dir/Widgets/ContractorView.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/ContractorView.c > CMakeFiles/granite.dir/Widgets/ContractorView.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/ContractorView.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/ContractorView.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/ContractorView.c -o CMakeFiles/granite.dir/Widgets/ContractorView.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/ContractorView.c -o CMakeFiles/granite.dir/Widgets/ContractorView.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/ContractorView.c.o.requires:
 
@@ -998,16 +998,16 @@ lib/CMakeFiles/granite.dir/Widgets/ContractorView.c.o.provides.build: lib/CMakeF
 
 lib/CMakeFiles/granite.dir/Widgets/ContractorMenu.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/ContractorMenu.c.o: lib/Widgets/ContractorMenu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object lib/CMakeFiles/granite.dir/Widgets/ContractorMenu.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/ContractorMenu.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/ContractorMenu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object lib/CMakeFiles/granite.dir/Widgets/ContractorMenu.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/ContractorMenu.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/ContractorMenu.c
 
 lib/CMakeFiles/granite.dir/Widgets/ContractorMenu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/ContractorMenu.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/ContractorMenu.c > CMakeFiles/granite.dir/Widgets/ContractorMenu.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/ContractorMenu.c > CMakeFiles/granite.dir/Widgets/ContractorMenu.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/ContractorMenu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/ContractorMenu.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/ContractorMenu.c -o CMakeFiles/granite.dir/Widgets/ContractorMenu.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/ContractorMenu.c -o CMakeFiles/granite.dir/Widgets/ContractorMenu.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/ContractorMenu.c.o.requires:
 
@@ -1022,16 +1022,16 @@ lib/CMakeFiles/granite.dir/Widgets/ContractorMenu.c.o.provides.build: lib/CMakeF
 
 lib/CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.o: lib/Widgets/DecoratedWindow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object lib/CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/DecoratedWindow.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object lib/CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/DecoratedWindow.c
 
 lib/CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/DecoratedWindow.c > CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/DecoratedWindow.c > CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/DecoratedWindow.c -o CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/DecoratedWindow.c -o CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.o.requires:
 
@@ -1046,16 +1046,16 @@ lib/CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.o.provides.build: lib/CMake
 
 lib/CMakeFiles/granite.dir/Widgets/LightWindow.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/LightWindow.c.o: lib/Widgets/LightWindow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object lib/CMakeFiles/granite.dir/Widgets/LightWindow.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/LightWindow.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/LightWindow.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object lib/CMakeFiles/granite.dir/Widgets/LightWindow.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/LightWindow.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/LightWindow.c
 
 lib/CMakeFiles/granite.dir/Widgets/LightWindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/LightWindow.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/LightWindow.c > CMakeFiles/granite.dir/Widgets/LightWindow.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/LightWindow.c > CMakeFiles/granite.dir/Widgets/LightWindow.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/LightWindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/LightWindow.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/LightWindow.c -o CMakeFiles/granite.dir/Widgets/LightWindow.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/LightWindow.c -o CMakeFiles/granite.dir/Widgets/LightWindow.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/LightWindow.c.o.requires:
 
@@ -1070,16 +1070,16 @@ lib/CMakeFiles/granite.dir/Widgets/LightWindow.c.o.provides.build: lib/CMakeFile
 
 lib/CMakeFiles/granite.dir/Widgets/StatusBar.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/StatusBar.c.o: lib/Widgets/StatusBar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object lib/CMakeFiles/granite.dir/Widgets/StatusBar.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/StatusBar.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/StatusBar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object lib/CMakeFiles/granite.dir/Widgets/StatusBar.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/StatusBar.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/StatusBar.c
 
 lib/CMakeFiles/granite.dir/Widgets/StatusBar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/StatusBar.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/StatusBar.c > CMakeFiles/granite.dir/Widgets/StatusBar.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/StatusBar.c > CMakeFiles/granite.dir/Widgets/StatusBar.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/StatusBar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/StatusBar.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/StatusBar.c -o CMakeFiles/granite.dir/Widgets/StatusBar.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/StatusBar.c -o CMakeFiles/granite.dir/Widgets/StatusBar.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/StatusBar.c.o.requires:
 
@@ -1094,16 +1094,16 @@ lib/CMakeFiles/granite.dir/Widgets/StatusBar.c.o.provides.build: lib/CMakeFiles/
 
 lib/CMakeFiles/granite.dir/Widgets/SidebarPaned.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/SidebarPaned.c.o: lib/Widgets/SidebarPaned.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object lib/CMakeFiles/granite.dir/Widgets/SidebarPaned.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/SidebarPaned.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/SidebarPaned.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object lib/CMakeFiles/granite.dir/Widgets/SidebarPaned.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/SidebarPaned.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/SidebarPaned.c
 
 lib/CMakeFiles/granite.dir/Widgets/SidebarPaned.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/SidebarPaned.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/SidebarPaned.c > CMakeFiles/granite.dir/Widgets/SidebarPaned.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/SidebarPaned.c > CMakeFiles/granite.dir/Widgets/SidebarPaned.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/SidebarPaned.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/SidebarPaned.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/SidebarPaned.c -o CMakeFiles/granite.dir/Widgets/SidebarPaned.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/SidebarPaned.c -o CMakeFiles/granite.dir/Widgets/SidebarPaned.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/SidebarPaned.c.o.requires:
 
@@ -1118,16 +1118,16 @@ lib/CMakeFiles/granite.dir/Widgets/SidebarPaned.c.o.provides.build: lib/CMakeFil
 
 lib/CMakeFiles/granite.dir/Widgets/SourceList.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/SourceList.c.o: lib/Widgets/SourceList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object lib/CMakeFiles/granite.dir/Widgets/SourceList.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/SourceList.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/SourceList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object lib/CMakeFiles/granite.dir/Widgets/SourceList.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/SourceList.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/SourceList.c
 
 lib/CMakeFiles/granite.dir/Widgets/SourceList.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/SourceList.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/SourceList.c > CMakeFiles/granite.dir/Widgets/SourceList.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/SourceList.c > CMakeFiles/granite.dir/Widgets/SourceList.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/SourceList.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/SourceList.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/SourceList.c -o CMakeFiles/granite.dir/Widgets/SourceList.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/SourceList.c -o CMakeFiles/granite.dir/Widgets/SourceList.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/SourceList.c.o.requires:
 
@@ -1142,16 +1142,16 @@ lib/CMakeFiles/granite.dir/Widgets/SourceList.c.o.provides.build: lib/CMakeFiles
 
 lib/CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.o: lib/Widgets/CellRendererExpander.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object lib/CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/CellRendererExpander.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object lib/CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/CellRendererExpander.c
 
 lib/CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/CellRendererExpander.c > CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/CellRendererExpander.c > CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/CellRendererExpander.c -o CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/CellRendererExpander.c -o CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.o.requires:
 
@@ -1166,16 +1166,16 @@ lib/CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.o.provides.build: lib/
 
 lib/CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.o: lib/Widgets/CellRendererBadge.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object lib/CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/CellRendererBadge.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object lib/CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/CellRendererBadge.c
 
 lib/CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/CellRendererBadge.c > CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/CellRendererBadge.c > CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/CellRendererBadge.c -o CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/CellRendererBadge.c -o CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.o.requires:
 
@@ -1190,16 +1190,16 @@ lib/CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.o.provides.build: lib/CMa
 
 lib/CMakeFiles/granite.dir/Widgets/ThinPaned.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/ThinPaned.c.o: lib/Widgets/ThinPaned.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object lib/CMakeFiles/granite.dir/Widgets/ThinPaned.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/ThinPaned.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/ThinPaned.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object lib/CMakeFiles/granite.dir/Widgets/ThinPaned.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/ThinPaned.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/ThinPaned.c
 
 lib/CMakeFiles/granite.dir/Widgets/ThinPaned.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/ThinPaned.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/ThinPaned.c > CMakeFiles/granite.dir/Widgets/ThinPaned.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/ThinPaned.c > CMakeFiles/granite.dir/Widgets/ThinPaned.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/ThinPaned.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/ThinPaned.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/ThinPaned.c -o CMakeFiles/granite.dir/Widgets/ThinPaned.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/ThinPaned.c -o CMakeFiles/granite.dir/Widgets/ThinPaned.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/ThinPaned.c.o.requires:
 
@@ -1214,16 +1214,16 @@ lib/CMakeFiles/granite.dir/Widgets/ThinPaned.c.o.provides.build: lib/CMakeFiles/
 
 lib/CMakeFiles/granite.dir/Widgets/OverlayBar.c.o: lib/CMakeFiles/granite.dir/flags.make
 lib/CMakeFiles/granite.dir/Widgets/OverlayBar.c.o: lib/Widgets/OverlayBar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object lib/CMakeFiles/granite.dir/Widgets/OverlayBar.c.o"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/OverlayBar.c.o   -c /home/cw/下载/granite-0.3.0/lib/Widgets/OverlayBar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object lib/CMakeFiles/granite.dir/Widgets/OverlayBar.c.o"
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/granite.dir/Widgets/OverlayBar.c.o   -c /home/cw/文档/granite-0.3.0/lib/Widgets/OverlayBar.c
 
 lib/CMakeFiles/granite.dir/Widgets/OverlayBar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/granite.dir/Widgets/OverlayBar.c.i"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/下载/granite-0.3.0/lib/Widgets/OverlayBar.c > CMakeFiles/granite.dir/Widgets/OverlayBar.c.i
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cw/文档/granite-0.3.0/lib/Widgets/OverlayBar.c > CMakeFiles/granite.dir/Widgets/OverlayBar.c.i
 
 lib/CMakeFiles/granite.dir/Widgets/OverlayBar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/granite.dir/Widgets/OverlayBar.c.s"
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/下载/granite-0.3.0/lib/Widgets/OverlayBar.c -o CMakeFiles/granite.dir/Widgets/OverlayBar.c.s
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cw/文档/granite-0.3.0/lib/Widgets/OverlayBar.c -o CMakeFiles/granite.dir/Widgets/OverlayBar.c.s
 
 lib/CMakeFiles/granite.dir/Widgets/OverlayBar.c.o.requires:
 
@@ -1328,11 +1328,11 @@ lib/libgranite.so.2.0.1: lib/CMakeFiles/granite.dir/Widgets/ThinPaned.c.o
 lib/libgranite.so.2.0.1: lib/CMakeFiles/granite.dir/Widgets/OverlayBar.c.o
 lib/libgranite.so.2.0.1: lib/CMakeFiles/granite.dir/build.make
 lib/libgranite.so.2.0.1: lib/CMakeFiles/granite.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cw/下载/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking C shared library libgranite.so"
-	cd /home/cw/下载/granite-0.3.0/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/granite.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/cw/下载/granite-0.3.0/lib && $(CMAKE_COMMAND) -E cmake_symlink_library libgranite.so.2.0.1 libgranite.so.2 libgranite.so
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/g-ir-scanner -pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0/ -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -n Granite --library granite --include=Gtk-3.0 --include=Gee-0.8 --warn-all -o /home/cw/下载/granite-0.3.0/lib/Granite-1.0.gir -L/home/cw/下载/granite-0.3.0/lib --nsversion=1.0 /home/cw/下载/granite-0.3.0/lib/granite.h /home/cw/下载/granite-0.3.0/lib/style-classes.c /home/cw/下载/granite-0.3.0/lib/Application.c /home/cw/下载/granite-0.3.0/lib/Drawing/Color.c /home/cw/下载/granite-0.3.0/lib/Drawing/BufferSurface.c /home/cw/下载/granite-0.3.0/lib/Drawing/Utilities.c /home/cw/下载/granite-0.3.0/lib/GtkPatch/AboutDialog.c /home/cw/下载/granite-0.3.0/lib/Services/Settings.c /home/cw/下载/granite-0.3.0/lib/Services/Logger.c /home/cw/下载/granite-0.3.0/lib/Services/Paths.c /home/cw/下载/granite-0.3.0/lib/Services/System.c /home/cw/下载/granite-0.3.0/lib/Services/Contractor.c /home/cw/下载/granite-0.3.0/lib/Services/ContractorProxy.c /home/cw/下载/granite-0.3.0/lib/Services/IconFactory.c /home/cw/下载/granite-0.3.0/lib/Services/SimpleCommand.c /home/cw/下载/granite-0.3.0/lib/Widgets/Utils.c /home/cw/下载/granite-0.3.0/lib/Widgets/WrapLabel.c /home/cw/下载/granite-0.3.0/lib/Widgets/AboutDialog.c /home/cw/下载/granite-0.3.0/lib/Widgets/ModeButton.c /home/cw/下载/granite-0.3.0/lib/Widgets/DatePicker.c /home/cw/下载/granite-0.3.0/lib/Widgets/Entries.c /home/cw/下载/granite-0.3.0/lib/Widgets/TimePicker.c /home/cw/下载/granite-0.3.0/lib/Widgets/CollapsiblePaned.c /home/cw/下载/granite-0.3.0/lib/Widgets/StaticNotebook.c /home/cw/下载/granite-0.3.0/lib/Widgets/DynamicNotebook.c /home/cw/下载/granite-0.3.0/lib/Widgets/CompositedWindow.c /home/cw/下载/granite-0.3.0/lib/Widgets/AppMenu.c /home/cw/下载/granite-0.3.0/lib/Widgets/Welcome.c /home/cw/下载/granite-0.3.0/lib/Widgets/ToolButtonWithMenu.c /home/cw/下载/granite-0.3.0/lib/Widgets/PopOver.c /home/cw/下载/granite-0.3.0/lib/Widgets/ContractorView.c /home/cw/下载/granite-0.3.0/lib/Widgets/ContractorMenu.c /home/cw/下载/granite-0.3.0/lib/Widgets/DecoratedWindow.c /home/cw/下载/granite-0.3.0/lib/Widgets/LightWindow.c /home/cw/下载/granite-0.3.0/lib/Widgets/StatusBar.c /home/cw/下载/granite-0.3.0/lib/Widgets/SidebarPaned.c /home/cw/下载/granite-0.3.0/lib/Widgets/SourceList.c /home/cw/下载/granite-0.3.0/lib/Widgets/CellRendererExpander.c /home/cw/下载/granite-0.3.0/lib/Widgets/CellRendererBadge.c /home/cw/下载/granite-0.3.0/lib/Widgets/ThinPaned.c /home/cw/下载/granite-0.3.0/lib/Widgets/OverlayBar.c
-	cd /home/cw/下载/granite-0.3.0/lib && /usr/bin/g-ir-compiler /home/cw/下载/granite-0.3.0/lib/Granite-1.0.gir -o /home/cw/下载/granite-0.3.0/lib/Granite-1.0.typelib
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cw/文档/granite-0.3.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking C shared library libgranite.so"
+	cd /home/cw/文档/granite-0.3.0/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/granite.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/cw/文档/granite-0.3.0/lib && $(CMAKE_COMMAND) -E cmake_symlink_library libgranite.so.2.0.1 libgranite.so.2 libgranite.so
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/g-ir-scanner -pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib64/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0/ -I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -n Granite --library granite --include=Gtk-3.0 --include=Gee-0.8 --warn-all -o /home/cw/文档/granite-0.3.0/lib/Granite-1.0.gir -L/home/cw/文档/granite-0.3.0/lib --nsversion=1.0 /home/cw/文档/granite-0.3.0/lib/granite.h /home/cw/文档/granite-0.3.0/lib/style-classes.c /home/cw/文档/granite-0.3.0/lib/Application.c /home/cw/文档/granite-0.3.0/lib/Drawing/Color.c /home/cw/文档/granite-0.3.0/lib/Drawing/BufferSurface.c /home/cw/文档/granite-0.3.0/lib/Drawing/Utilities.c /home/cw/文档/granite-0.3.0/lib/GtkPatch/AboutDialog.c /home/cw/文档/granite-0.3.0/lib/Services/Settings.c /home/cw/文档/granite-0.3.0/lib/Services/Logger.c /home/cw/文档/granite-0.3.0/lib/Services/Paths.c /home/cw/文档/granite-0.3.0/lib/Services/System.c /home/cw/文档/granite-0.3.0/lib/Services/Contractor.c /home/cw/文档/granite-0.3.0/lib/Services/ContractorProxy.c /home/cw/文档/granite-0.3.0/lib/Services/IconFactory.c /home/cw/文档/granite-0.3.0/lib/Services/SimpleCommand.c /home/cw/文档/granite-0.3.0/lib/Widgets/Utils.c /home/cw/文档/granite-0.3.0/lib/Widgets/WrapLabel.c /home/cw/文档/granite-0.3.0/lib/Widgets/AboutDialog.c /home/cw/文档/granite-0.3.0/lib/Widgets/ModeButton.c /home/cw/文档/granite-0.3.0/lib/Widgets/DatePicker.c /home/cw/文档/granite-0.3.0/lib/Widgets/Entries.c /home/cw/文档/granite-0.3.0/lib/Widgets/TimePicker.c /home/cw/文档/granite-0.3.0/lib/Widgets/CollapsiblePaned.c /home/cw/文档/granite-0.3.0/lib/Widgets/StaticNotebook.c /home/cw/文档/granite-0.3.0/lib/Widgets/DynamicNotebook.c /home/cw/文档/granite-0.3.0/lib/Widgets/CompositedWindow.c /home/cw/文档/granite-0.3.0/lib/Widgets/AppMenu.c /home/cw/文档/granite-0.3.0/lib/Widgets/Welcome.c /home/cw/文档/granite-0.3.0/lib/Widgets/ToolButtonWithMenu.c /home/cw/文档/granite-0.3.0/lib/Widgets/PopOver.c /home/cw/文档/granite-0.3.0/lib/Widgets/ContractorView.c /home/cw/文档/granite-0.3.0/lib/Widgets/ContractorMenu.c /home/cw/文档/granite-0.3.0/lib/Widgets/DecoratedWindow.c /home/cw/文档/granite-0.3.0/lib/Widgets/LightWindow.c /home/cw/文档/granite-0.3.0/lib/Widgets/StatusBar.c /home/cw/文档/granite-0.3.0/lib/Widgets/SidebarPaned.c /home/cw/文档/granite-0.3.0/lib/Widgets/SourceList.c /home/cw/文档/granite-0.3.0/lib/Widgets/CellRendererExpander.c /home/cw/文档/granite-0.3.0/lib/Widgets/CellRendererBadge.c /home/cw/文档/granite-0.3.0/lib/Widgets/ThinPaned.c /home/cw/文档/granite-0.3.0/lib/Widgets/OverlayBar.c
+	cd /home/cw/文档/granite-0.3.0/lib && /usr/bin/g-ir-compiler /home/cw/文档/granite-0.3.0/lib/Granite-1.0.gir -o /home/cw/文档/granite-0.3.0/lib/Granite-1.0.typelib
 
 lib/libgranite.so.2: lib/libgranite.so.2.0.1
 	@$(CMAKE_COMMAND) -E touch_nocreate lib/libgranite.so.2
@@ -1391,7 +1391,7 @@ lib/CMakeFiles/granite.dir/requires: lib/CMakeFiles/granite.dir/Widgets/OverlayB
 .PHONY : lib/CMakeFiles/granite.dir/requires
 
 lib/CMakeFiles/granite.dir/clean:
-	cd /home/cw/下载/granite-0.3.0/lib && $(CMAKE_COMMAND) -P CMakeFiles/granite.dir/cmake_clean.cmake
+	cd /home/cw/文档/granite-0.3.0/lib && $(CMAKE_COMMAND) -P CMakeFiles/granite.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/granite.dir/clean
 
 lib/CMakeFiles/granite.dir/depend: lib/style-classes.c
@@ -1437,6 +1437,6 @@ lib/CMakeFiles/granite.dir/depend: lib/Widgets/OverlayBar.c
 lib/CMakeFiles/granite.dir/depend: lib/granite.vapi
 lib/CMakeFiles/granite.dir/depend: lib/granite.h
 lib/CMakeFiles/granite.dir/depend: lib/granite_valac.stamp
-	cd /home/cw/下载/granite-0.3.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cw/下载/granite-0.3.0 /home/cw/下载/granite-0.3.0/lib /home/cw/下载/granite-0.3.0 /home/cw/下载/granite-0.3.0/lib /home/cw/下载/granite-0.3.0/lib/CMakeFiles/granite.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cw/文档/granite-0.3.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cw/文档/granite-0.3.0 /home/cw/文档/granite-0.3.0/lib /home/cw/文档/granite-0.3.0 /home/cw/文档/granite-0.3.0/lib /home/cw/文档/granite-0.3.0/lib/CMakeFiles/granite.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/CMakeFiles/granite.dir/depend
 

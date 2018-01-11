@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cw/下载/granite-0.3.0
+CMAKE_SOURCE_DIR = /home/cw/文档/granite-0.3.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cw/下载/granite-0.3.0
+CMAKE_BINARY_DIR = /home/cw/文档/granite-0.3.0
 
 # Utility rule file for i18n.
 
@@ -54,65 +54,65 @@ CMAKE_BINARY_DIR = /home/cw/下载/granite-0.3.0
 include po/CMakeFiles/i18n.dir/progress.make
 
 i18n: po/CMakeFiles/i18n.dir/build.make
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/af.mo /home/cw/下载/granite-0.3.0/po/af.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/am.mo /home/cw/下载/granite-0.3.0/po/am.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/ar.mo /home/cw/下载/granite-0.3.0/po/ar.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/be.mo /home/cw/下载/granite-0.3.0/po/be.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/bg.mo /home/cw/下载/granite-0.3.0/po/bg.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/bs.mo /home/cw/下载/granite-0.3.0/po/bs.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/ca.mo /home/cw/下载/granite-0.3.0/po/ca.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/cs.mo /home/cw/下载/granite-0.3.0/po/cs.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/da.mo /home/cw/下载/granite-0.3.0/po/da.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/de.mo /home/cw/下载/granite-0.3.0/po/de.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/el.mo /home/cw/下载/granite-0.3.0/po/el.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/en_AU.mo /home/cw/下载/granite-0.3.0/po/en_AU.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/en_CA.mo /home/cw/下载/granite-0.3.0/po/en_CA.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/en_GB.mo /home/cw/下载/granite-0.3.0/po/en_GB.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/eo.mo /home/cw/下载/granite-0.3.0/po/eo.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/es.mo /home/cw/下载/granite-0.3.0/po/es.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/et.mo /home/cw/下载/granite-0.3.0/po/et.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/eu.mo /home/cw/下载/granite-0.3.0/po/eu.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/fa.mo /home/cw/下载/granite-0.3.0/po/fa.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/fi.mo /home/cw/下载/granite-0.3.0/po/fi.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/fr.mo /home/cw/下载/granite-0.3.0/po/fr.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/fr_CA.mo /home/cw/下载/granite-0.3.0/po/fr_CA.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/fy.mo /home/cw/下载/granite-0.3.0/po/fy.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/gl.mo /home/cw/下载/granite-0.3.0/po/gl.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/he.mo /home/cw/下载/granite-0.3.0/po/he.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/hi.mo /home/cw/下载/granite-0.3.0/po/hi.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/hr.mo /home/cw/下载/granite-0.3.0/po/hr.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/hu.mo /home/cw/下载/granite-0.3.0/po/hu.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/id.mo /home/cw/下载/granite-0.3.0/po/id.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/it.mo /home/cw/下载/granite-0.3.0/po/it.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/ja.mo /home/cw/下载/granite-0.3.0/po/ja.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/ko.mo /home/cw/下载/granite-0.3.0/po/ko.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/lb.mo /home/cw/下载/granite-0.3.0/po/lb.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/lt.mo /home/cw/下载/granite-0.3.0/po/lt.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/lv.mo /home/cw/下载/granite-0.3.0/po/lv.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/ms.mo /home/cw/下载/granite-0.3.0/po/ms.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/nb.mo /home/cw/下载/granite-0.3.0/po/nb.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/nl.mo /home/cw/下载/granite-0.3.0/po/nl.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/nn.mo /home/cw/下载/granite-0.3.0/po/nn.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/pl.mo /home/cw/下载/granite-0.3.0/po/pl.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/pt.mo /home/cw/下载/granite-0.3.0/po/pt.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/pt_BR.mo /home/cw/下载/granite-0.3.0/po/pt_BR.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/ro.mo /home/cw/下载/granite-0.3.0/po/ro.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/ru.mo /home/cw/下载/granite-0.3.0/po/ru.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/rue.mo /home/cw/下载/granite-0.3.0/po/rue.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/sk.mo /home/cw/下载/granite-0.3.0/po/sk.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/sl.mo /home/cw/下载/granite-0.3.0/po/sl.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/sma.mo /home/cw/下载/granite-0.3.0/po/sma.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/sq.mo /home/cw/下载/granite-0.3.0/po/sq.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/sr.mo /home/cw/下载/granite-0.3.0/po/sr.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/sv.mo /home/cw/下载/granite-0.3.0/po/sv.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/ta.mo /home/cw/下载/granite-0.3.0/po/ta.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/te.mo /home/cw/下载/granite-0.3.0/po/te.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/tr.mo /home/cw/下载/granite-0.3.0/po/tr.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/ug.mo /home/cw/下载/granite-0.3.0/po/ug.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/uk.mo /home/cw/下载/granite-0.3.0/po/uk.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/vi.mo /home/cw/下载/granite-0.3.0/po/vi.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/zh_CN.mo /home/cw/下载/granite-0.3.0/po/zh_CN.po
-	cd /home/cw/下载/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/下载/granite-0.3.0/po/zh_TW.mo /home/cw/下载/granite-0.3.0/po/zh_TW.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/af.mo /home/cw/文档/granite-0.3.0/po/af.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/am.mo /home/cw/文档/granite-0.3.0/po/am.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/ar.mo /home/cw/文档/granite-0.3.0/po/ar.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/be.mo /home/cw/文档/granite-0.3.0/po/be.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/bg.mo /home/cw/文档/granite-0.3.0/po/bg.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/bs.mo /home/cw/文档/granite-0.3.0/po/bs.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/ca.mo /home/cw/文档/granite-0.3.0/po/ca.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/cs.mo /home/cw/文档/granite-0.3.0/po/cs.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/da.mo /home/cw/文档/granite-0.3.0/po/da.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/de.mo /home/cw/文档/granite-0.3.0/po/de.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/el.mo /home/cw/文档/granite-0.3.0/po/el.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/en_AU.mo /home/cw/文档/granite-0.3.0/po/en_AU.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/en_CA.mo /home/cw/文档/granite-0.3.0/po/en_CA.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/en_GB.mo /home/cw/文档/granite-0.3.0/po/en_GB.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/eo.mo /home/cw/文档/granite-0.3.0/po/eo.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/es.mo /home/cw/文档/granite-0.3.0/po/es.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/et.mo /home/cw/文档/granite-0.3.0/po/et.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/eu.mo /home/cw/文档/granite-0.3.0/po/eu.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/fa.mo /home/cw/文档/granite-0.3.0/po/fa.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/fi.mo /home/cw/文档/granite-0.3.0/po/fi.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/fr.mo /home/cw/文档/granite-0.3.0/po/fr.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/fr_CA.mo /home/cw/文档/granite-0.3.0/po/fr_CA.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/fy.mo /home/cw/文档/granite-0.3.0/po/fy.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/gl.mo /home/cw/文档/granite-0.3.0/po/gl.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/he.mo /home/cw/文档/granite-0.3.0/po/he.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/hi.mo /home/cw/文档/granite-0.3.0/po/hi.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/hr.mo /home/cw/文档/granite-0.3.0/po/hr.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/hu.mo /home/cw/文档/granite-0.3.0/po/hu.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/id.mo /home/cw/文档/granite-0.3.0/po/id.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/it.mo /home/cw/文档/granite-0.3.0/po/it.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/ja.mo /home/cw/文档/granite-0.3.0/po/ja.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/ko.mo /home/cw/文档/granite-0.3.0/po/ko.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/lb.mo /home/cw/文档/granite-0.3.0/po/lb.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/lt.mo /home/cw/文档/granite-0.3.0/po/lt.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/lv.mo /home/cw/文档/granite-0.3.0/po/lv.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/ms.mo /home/cw/文档/granite-0.3.0/po/ms.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/nb.mo /home/cw/文档/granite-0.3.0/po/nb.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/nl.mo /home/cw/文档/granite-0.3.0/po/nl.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/nn.mo /home/cw/文档/granite-0.3.0/po/nn.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/pl.mo /home/cw/文档/granite-0.3.0/po/pl.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/pt.mo /home/cw/文档/granite-0.3.0/po/pt.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/pt_BR.mo /home/cw/文档/granite-0.3.0/po/pt_BR.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/ro.mo /home/cw/文档/granite-0.3.0/po/ro.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/ru.mo /home/cw/文档/granite-0.3.0/po/ru.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/rue.mo /home/cw/文档/granite-0.3.0/po/rue.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/sk.mo /home/cw/文档/granite-0.3.0/po/sk.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/sl.mo /home/cw/文档/granite-0.3.0/po/sl.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/sma.mo /home/cw/文档/granite-0.3.0/po/sma.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/sq.mo /home/cw/文档/granite-0.3.0/po/sq.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/sr.mo /home/cw/文档/granite-0.3.0/po/sr.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/sv.mo /home/cw/文档/granite-0.3.0/po/sv.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/ta.mo /home/cw/文档/granite-0.3.0/po/ta.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/te.mo /home/cw/文档/granite-0.3.0/po/te.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/tr.mo /home/cw/文档/granite-0.3.0/po/tr.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/ug.mo /home/cw/文档/granite-0.3.0/po/ug.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/uk.mo /home/cw/文档/granite-0.3.0/po/uk.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/vi.mo /home/cw/文档/granite-0.3.0/po/vi.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/zh_CN.mo /home/cw/文档/granite-0.3.0/po/zh_CN.po
+	cd /home/cw/文档/granite-0.3.0/po && /usr/bin/msgfmt -o /home/cw/文档/granite-0.3.0/po/zh_TW.mo /home/cw/文档/granite-0.3.0/po/zh_TW.po
 .PHONY : i18n
 
 # Rule to build all files generated by this target.
@@ -121,10 +121,10 @@ po/CMakeFiles/i18n.dir/build: i18n
 .PHONY : po/CMakeFiles/i18n.dir/build
 
 po/CMakeFiles/i18n.dir/clean:
-	cd /home/cw/下载/granite-0.3.0/po && $(CMAKE_COMMAND) -P CMakeFiles/i18n.dir/cmake_clean.cmake
+	cd /home/cw/文档/granite-0.3.0/po && $(CMAKE_COMMAND) -P CMakeFiles/i18n.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/i18n.dir/clean
 
 po/CMakeFiles/i18n.dir/depend:
-	cd /home/cw/下载/granite-0.3.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cw/下载/granite-0.3.0 /home/cw/下载/granite-0.3.0/po /home/cw/下载/granite-0.3.0 /home/cw/下载/granite-0.3.0/po /home/cw/下载/granite-0.3.0/po/CMakeFiles/i18n.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cw/文档/granite-0.3.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cw/文档/granite-0.3.0 /home/cw/文档/granite-0.3.0/po /home/cw/文档/granite-0.3.0 /home/cw/文档/granite-0.3.0/po /home/cw/文档/granite-0.3.0/po/CMakeFiles/i18n.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/i18n.dir/depend
 

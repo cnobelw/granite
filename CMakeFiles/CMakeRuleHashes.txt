@@ -1,6 +1,6 @@
 # Hashes of file build rules.
-0e4ced43fa2d2f5c09f1332729360a0a CMakeFiles/dist
-ca7ffba2783d686e55e857d5eef8f1fd demo/GraniteDemo.c
-7129bf9f482cbf06fbce4f35b5b21d80 demo/granite-demo_valac.stamp
-4718dcdcab2afc86247ddd1c18f774e1 lib/granite_valac.stamp
-6b347baba7124a2b943228b24fc714b6 lib/style-classes.c
+c6bcdfd671dcef36edd2c877f040e318 CMakeFiles/dist
+b007ab70eecd8f5b29d49dbe483a8a2b demo/GraniteDemo.c
+edc965a0f29b0c0f6042b4156e5591aa demo/granite-demo_valac.stamp
+db448b303bf4af90c1fecdd8f84cc298 lib/granite_valac.stamp
+d7cbf08973bac67aaab1b4799090b411 lib/style-classes.c

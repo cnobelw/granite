@@ -1,4 +1,4 @@
-# Install script for directory: /home/cw/下载/granite-0.3.0/icons
+# Install script for directory: /home/cw/文档/granite-0.3.0/icons
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,34 +38,34 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/16x16/actions" TYPE FILE FILES "/home/cw/下载/granite-0.3.0/icons/16x16/application-menu.svg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/16x16/actions" TYPE FILE FILES "/home/cw/文档/granite-0.3.0/icons/16x16/application-menu.svg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/16x16/actions" TYPE FILE FILES "/home/cw/下载/granite-0.3.0/icons/16x16/appointment.svg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/16x16/actions" TYPE FILE FILES "/home/cw/文档/granite-0.3.0/icons/16x16/appointment.svg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/22x22/actions" TYPE FILE FILES "/home/cw/下载/granite-0.3.0/icons/22x22/application-menu.svg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/22x22/actions" TYPE FILE FILES "/home/cw/文档/granite-0.3.0/icons/22x22/application-menu.svg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/24x24/actions" TYPE FILE FILES "/home/cw/下载/granite-0.3.0/icons/24x24/application-menu.svg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/24x24/actions" TYPE FILE FILES "/home/cw/文档/granite-0.3.0/icons/24x24/application-menu.svg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/24x24/actions" TYPE FILE FILES "/home/cw/下载/granite-0.3.0/icons/24x24/appointment.svg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/24x24/actions" TYPE FILE FILES "/home/cw/文档/granite-0.3.0/icons/24x24/appointment.svg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/32x32/actions" TYPE FILE FILES "/home/cw/下载/granite-0.3.0/icons/32x32/application-menu.svg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/32x32/actions" TYPE FILE FILES "/home/cw/文档/granite-0.3.0/icons/32x32/application-menu.svg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/48x48/actions" TYPE FILE FILES "/home/cw/下载/granite-0.3.0/icons/48x48/application-menu.svg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/48x48/actions" TYPE FILE FILES "/home/cw/文档/granite-0.3.0/icons/48x48/application-menu.svg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/scalable/actions" TYPE FILE FILES "/home/cw/下载/granite-0.3.0/icons/scalable/application-menu-symbolic.svg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/scalable/actions" TYPE FILE FILES "/home/cw/文档/granite-0.3.0/icons/scalable/application-menu-symbolic.svg")
 endif()
 

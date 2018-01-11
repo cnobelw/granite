@@ -1,4 +1,4 @@
-# Install script for directory: /home/cw/下载/granite-0.3.0
+# Install script for directory: /home/cw/文档/granite-0.3.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/cw/下载/granite-0.3.0/lib/cmake_install.cmake")
-  include("/home/cw/下载/granite-0.3.0/demo/cmake_install.cmake")
-  include("/home/cw/下载/granite-0.3.0/doc/cmake_install.cmake")
-  include("/home/cw/下载/granite-0.3.0/po/cmake_install.cmake")
-  include("/home/cw/下载/granite-0.3.0/icons/cmake_install.cmake")
+  include("/home/cw/文档/granite-0.3.0/lib/cmake_install.cmake")
+  include("/home/cw/文档/granite-0.3.0/demo/cmake_install.cmake")
+  include("/home/cw/文档/granite-0.3.0/doc/cmake_install.cmake")
+  include("/home/cw/文档/granite-0.3.0/po/cmake_install.cmake")
+  include("/home/cw/文档/granite-0.3.0/icons/cmake_install.cmake")
 
 endif()
 
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/cw/下载/granite-0.3.0/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cw/文档/granite-0.3.0/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

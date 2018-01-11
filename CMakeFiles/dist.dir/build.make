@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cw/下载/granite-0.3.0
+CMAKE_SOURCE_DIR = /home/cw/文档/granite-0.3.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cw/下载/granite-0.3.0
+CMAKE_BINARY_DIR = /home/cw/文档/granite-0.3.0
 
 # Utility rule file for dist.
 
@@ -71,6 +71,6 @@ CMakeFiles/dist.dir/clean:
 .PHONY : CMakeFiles/dist.dir/clean
 
 CMakeFiles/dist.dir/depend:
-	cd /home/cw/下载/granite-0.3.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cw/下载/granite-0.3.0 /home/cw/下载/granite-0.3.0 /home/cw/下载/granite-0.3.0 /home/cw/下载/granite-0.3.0 /home/cw/下载/granite-0.3.0/CMakeFiles/dist.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cw/文档/granite-0.3.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cw/文档/granite-0.3.0 /home/cw/文档/granite-0.3.0 /home/cw/文档/granite-0.3.0 /home/cw/文档/granite-0.3.0 /home/cw/文档/granite-0.3.0/CMakeFiles/dist.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dist.dir/depend
 

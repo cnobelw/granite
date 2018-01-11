@@ -1,4 +1,4 @@
-# Install script for directory: /home/cw/下载/granite-0.3.0/doc
+# Install script for directory: /home/cw/文档/granite-0.3.0/doc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

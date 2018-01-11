@@ -1,4 +1,4 @@
-# Install script for directory: /home/cw/下载/granite-0.3.0/lib
+# Install script for directory: /home/cw/文档/granite-0.3.0/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,7 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib64/pkgconfig" TYPE FILE FILES "/home/cw/下载/granite-0.3.0/lib/granite.pc")
+file(INSTALL DESTINATION "/usr/local/lib64/pkgconfig" TYPE FILE FILES "/home/cw/文档/granite-0.3.0/lib/granite.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -58,7 +58,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/share/vala/vapi" TYPE FILE FILES "/home/cw/下载/granite-0.3.0/lib/granite.vapi")
+file(INSTALL DESTINATION "/usr/local/share/vala/vapi" TYPE FILE FILES "/home/cw/文档/granite-0.3.0/lib/granite.vapi")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -70,7 +70,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/share/vala/vapi" TYPE FILE FILES "/home/cw/下载/granite-0.3.0/lib/granite.deps")
+file(INSTALL DESTINATION "/usr/local/share/vala/vapi" TYPE FILE FILES "/home/cw/文档/granite-0.3.0/lib/granite.deps")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -82,7 +82,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include/granite" TYPE FILE FILES "/home/cw/下载/granite-0.3.0/lib/granite.h")
+file(INSTALL DESTINATION "/usr/local/include/granite" TYPE FILE FILES "/home/cw/文档/granite-0.3.0/lib/granite.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -94,7 +94,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include/granite" TYPE FILE FILES "/home/cw/下载/granite-0.3.0/lib/Widgets/widgets-utils.h")
+file(INSTALL DESTINATION "/usr/local/include/granite" TYPE FILE FILES "/home/cw/文档/granite-0.3.0/lib/Widgets/widgets-utils.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -119,9 +119,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/lib64" TYPE SHARED_LIBRARY FILES
-    "/home/cw/下载/granite-0.3.0/lib/libgranite.so.2.0.1"
-    "/home/cw/下载/granite-0.3.0/lib/libgranite.so.2"
-    "/home/cw/下载/granite-0.3.0/lib/libgranite.so"
+    "/home/cw/文档/granite-0.3.0/lib/libgranite.so.2.0.1"
+    "/home/cw/文档/granite-0.3.0/lib/libgranite.so.2"
+    "/home/cw/文档/granite-0.3.0/lib/libgranite.so"
     )
   foreach(file
       "$ENV{DESTDIR}/usr/local/lib64/libgranite.so.2.0.1"
@@ -146,7 +146,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/share/gir-1.0" TYPE FILE FILES "/home/cw/下载/granite-0.3.0/lib/Granite-1.0.gir")
+file(INSTALL DESTINATION "/usr/share/gir-1.0" TYPE FILE FILES "/home/cw/文档/granite-0.3.0/lib/Granite-1.0.gir")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -158,6 +158,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/lib64/girepository-1.0" TYPE FILE FILES "/home/cw/下载/granite-0.3.0/lib/Granite-1.0.typelib")
+file(INSTALL DESTINATION "/usr/lib64/girepository-1.0" TYPE FILE FILES "/home/cw/文档/granite-0.3.0/lib/Granite-1.0.typelib")
 endif()
 

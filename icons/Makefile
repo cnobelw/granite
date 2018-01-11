@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cw/下载/granite-0.3.0
+CMAKE_SOURCE_DIR = /home/cw/文档/granite-0.3.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cw/下载/granite-0.3.0
+CMAKE_BINARY_DIR = /home/cw/文档/granite-0.3.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,7 +83,7 @@ install/local/fast: preinstall/fast
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/cw/下载/granite-0.3.0 && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/cw/下载/granite-0.3.0/CPackSourceConfig.cmake
+	cd /home/cw/文档/granite-0.3.0 && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/cw/文档/granite-0.3.0/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -94,7 +94,7 @@ package_source/fast: package_source
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/cw/下载/granite-0.3.0 && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/cw/文档/granite-0.3.0 && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -148,14 +148,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/cw/下载/granite-0.3.0 && $(CMAKE_COMMAND) -E cmake_progress_start /home/cw/下载/granite-0.3.0/CMakeFiles /home/cw/下载/granite-0.3.0/icons/CMakeFiles/progress.marks
-	cd /home/cw/下载/granite-0.3.0 && $(MAKE) -f CMakeFiles/Makefile2 icons/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cw/下载/granite-0.3.0/CMakeFiles 0
+	cd /home/cw/文档/granite-0.3.0 && $(CMAKE_COMMAND) -E cmake_progress_start /home/cw/文档/granite-0.3.0/CMakeFiles /home/cw/文档/granite-0.3.0/icons/CMakeFiles/progress.marks
+	cd /home/cw/文档/granite-0.3.0 && $(MAKE) -f CMakeFiles/Makefile2 icons/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cw/文档/granite-0.3.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/cw/下载/granite-0.3.0 && $(MAKE) -f CMakeFiles/Makefile2 icons/clean
+	cd /home/cw/文档/granite-0.3.0 && $(MAKE) -f CMakeFiles/Makefile2 icons/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,17 +165,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/cw/下载/granite-0.3.0 && $(MAKE) -f CMakeFiles/Makefile2 icons/preinstall
+	cd /home/cw/文档/granite-0.3.0 && $(MAKE) -f CMakeFiles/Makefile2 icons/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/cw/下载/granite-0.3.0 && $(MAKE) -f CMakeFiles/Makefile2 icons/preinstall
+	cd /home/cw/文档/granite-0.3.0 && $(MAKE) -f CMakeFiles/Makefile2 icons/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/cw/下载/granite-0.3.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/cw/文档/granite-0.3.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -203,6 +203,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/cw/下载/granite-0.3.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/cw/文档/granite-0.3.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

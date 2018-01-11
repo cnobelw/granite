@@ -6,5 +6,5 @@ C_FLAGS =   -pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/us
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/cw/下载/granite-0.3.0/demo -I/home/cw/下载/granite-0.3.0/demo/../lib 
+C_INCLUDES = -I/home/cw/文档/granite-0.3.0/demo -I/home/cw/文档/granite-0.3.0/demo/../lib 
 

@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0
 
 C_DEFINES = -DGETTEXT_PACKAGE=\"granite\" -Dgranite_EXPORTS
 
-C_INCLUDES = -I/home/cw/下载/granite-0.3.0/lib/Widgets -I/home/cw/下载/granite-0.3.0/lib 
+C_INCLUDES = -I/home/cw/文档/granite-0.3.0/lib/Widgets -I/home/cw/文档/granite-0.3.0/lib 
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cw/下载/granite-0.3.0
+CMAKE_SOURCE_DIR = /home/cw/文档/granite-0.3.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cw/下载/granite-0.3.0
+CMAKE_BINARY_DIR = /home/cw/文档/granite-0.3.0
 
 # Utility rule file for docs.
 
@@ -63,10 +63,10 @@ doc/CMakeFiles/docs.dir/build: docs
 .PHONY : doc/CMakeFiles/docs.dir/build
 
 doc/CMakeFiles/docs.dir/clean:
-	cd /home/cw/下载/granite-0.3.0/doc && $(CMAKE_COMMAND) -P CMakeFiles/docs.dir/cmake_clean.cmake
+	cd /home/cw/文档/granite-0.3.0/doc && $(CMAKE_COMMAND) -P CMakeFiles/docs.dir/cmake_clean.cmake
 .PHONY : doc/CMakeFiles/docs.dir/clean
 
 doc/CMakeFiles/docs.dir/depend:
-	cd /home/cw/下载/granite-0.3.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cw/下载/granite-0.3.0 /home/cw/下载/granite-0.3.0/doc /home/cw/下载/granite-0.3.0 /home/cw/下载/granite-0.3.0/doc /home/cw/下载/granite-0.3.0/doc/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cw/文档/granite-0.3.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cw/文档/granite-0.3.0 /home/cw/文档/granite-0.3.0/doc /home/cw/文档/granite-0.3.0 /home/cw/文档/granite-0.3.0/doc /home/cw/文档/granite-0.3.0/doc/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : doc/CMakeFiles/docs.dir/depend
 
